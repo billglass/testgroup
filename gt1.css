@@ -1,0 +1,168 @@
+/*Test*/
+
+body.index {
+	background-image: url(techteaching.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #FDAB74;
+}
+
+.logo {
+	font-family: 'Economica', sans-serif;
+}
+
+header {
+	background-color: #35898E;
+	padding-left: 200px;
+	margin-top: 30px;
+	box-shadow: 4px 4px 4px #1D4A4C;
+}
+
+header img {
+	padding-top: 7px;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	margin-top: -20px;
+	margin-left: 400px;
+	padding-bottom: 5px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 30px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 25px;
+	text-shadow: .75px .75px .75px #000;
+}
+
+.clear {
+	clear: both;
+}
+
+div.about {
+	width: 500px;
+	height: 370px;
+	border-radius: 25px;
+	margin: 120px 0 auto 440px;
+	background:rgba(230,230,230, 0.5);
+}
+
+.about h4 {
+	text-align: center;
+	font-family: "PT Sans Narrow", sans-serif;
+	text-shadow: 1px 1px 1px #FFFFFF;
+	font-size: 2.2em;
+}
+
+.about p {
+	font-family: "PT Sans Narrow", sans-serif;
+	letter-spacing: .65px;
+	text-indent: 25px;
+	padding: 0px 25px 0 25px;
+	font-weight: bold;
+}
+
+div.mission {
+	font-family: "PT Sans Narrow", sans-serif;
+	color: #CCFFFF;
+	text-shadow: 6px 6px 12px black, 0 0 25px #00003D, 0 0 5px #333333;
+	text-align: center;
+	font-size: 3em; 
+	width: 500px;
+	margin: 40px 0 120px 420px;
+	padding-top: 80px;
+}
+
+ul#code {
+	width: 660px;
+	height: 560px;
+	list-style-type: none;
+	margin: 75px 0 75px 340px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgba(230,230,230, 0.6);
+}
+
+div.content {
+	display: inline-block;
+	height: 112px;
+	width: 300px;
+	/*background: rgba(230,230,230, 0.5);*/
+	/*box-shadow: 2px 2px 1px #000000;*/
+	font-family: "PT Sans Narrow", sans-serif;
+	color: #000000;
+	/*font-weight: bold;*/
+	font-size: 15pt;
+	padding-top: 2px;
+	margin-left: 360px;
+}
+
+.desc:link, .desc:hover, .desc:active, .desc:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#code li {
+	margin-bottom: 20px;
+	width: 110px;
+}
+
+#code li .image {
+	display: block;
+	height: 112px;
+	margin-bottom: 25px;
+}
+
+#code li .image, #code li .image, #code i .image {
+	width: 24px; 
+	height: 30px;
+} 
+
+#newbutton {
+	display: inline-block;
+	margin: 5px 0 35px 545px;
+}
+
+.mybutton {
+	background-color:#FF0000;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	box-shadow: 3px 3px 3px #000000;
+	display:inline-block;
+	float: left;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	text-decoration:none;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.mybutton:hover {
+	background-color:#35898E;
+}
+
+footer {	
+	background-color: #35898E;
+	height: 75px;
+	padding-left: 200px;
+	margin-top: 30px;
+	box-shadow: 4px 4px 4px #1D4A4C;
+	font-family: "PT Sans Narrow", sans-serif;
+	color: #FFFFFF;
+}
+
+.footer p {
+	margin-left: 387px;
+	padding-top: 25px;
+}
+
